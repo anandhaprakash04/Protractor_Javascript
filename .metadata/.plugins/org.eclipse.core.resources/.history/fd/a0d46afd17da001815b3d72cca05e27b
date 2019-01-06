@@ -1,0 +1,14 @@
+describe(
+		"Protractor Sync Non Angular",
+		function() {
+
+			it(
+					"TestCase01",
+					function() {
+						browser.waitForAngularEnabled(false);
+						browser.get("http://www.qaclickacademy.com/practice.php");
+								
+						
+					});
+
+		});

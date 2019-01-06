@@ -1,0 +1,11 @@
+{
+	"name": "Protractor3_Framework_JSObjects_11-01-2018",
+	
+	"dependencies": {
+		"protractor": "5.4.1"
+	},
+	
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}

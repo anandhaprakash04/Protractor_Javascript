@@ -1,0 +1,5 @@
+
+
+var a = require("./SampleClass_Car.js");
+
+a.getModel();

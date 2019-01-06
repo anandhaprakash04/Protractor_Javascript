@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.angularjs.core.protractor">
+<stringAttribute key="debugger" value="ProgramNodejs"/>
+<booleanAttribute key="editedByExternalToolsMainTab" value="true"/>
+<stringAttribute key="nodeinstall" value="node-v4.2.4-win32-x86_64"/>
+</launchConfiguration>

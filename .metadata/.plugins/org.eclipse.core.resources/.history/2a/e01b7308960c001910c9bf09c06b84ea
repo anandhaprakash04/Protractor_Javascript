@@ -1,0 +1,22 @@
+describe("SupercalculatorTest", function() {
+
+	var calculate = require("./3SuperCalculator_PageObject.js");
+
+	beforeEach(function() {
+		calculate.launchCalculator();
+	})
+
+	it("TestCase01", function() {
+
+		calculate.firstInput.sendKeys("100");
+		calculate.secondInput.sendKeys("100");
+		calculate.goButton.click();
+		calculate.performAction(100, 200, "+");
+
+	})
+
+	afterEach(function() {
+		console.log("Testing is completed")		
+	})
+	
+})

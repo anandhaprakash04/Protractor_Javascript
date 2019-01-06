@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to &apos;Protractor_Framework_JSObjects_11-01-2018&apos;&#x0D;&#x0A;- Original project: &apos;Protractor_DemoProject_20181028&apos;&#x0D;&#x0A;- Destination element: &apos;Protractor_Framework_JSObjects_11-01-2018&apos;&#x0D;&#x0A;- Original element: &apos;config.js&apos;" description="Copy file" element1="config.js" files="1" flags="589830" folders="0" id="org.eclipse.wst.jsdt.ui.copy" log="config.js&#x09;true&#x09;false" policy="org.eclipse.wst.jsdt.ui.copyResources" stamp="1541112889921" target="/Protractor_Framework_JSObjects_11-01-2018" units="0" version="1.0"/>
+</session>

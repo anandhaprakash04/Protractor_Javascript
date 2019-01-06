@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+
+
+datadrive= {
+	
+	firstInput : "2",
+	secondInput : "5",
+	result: "7"
+}
+
+console.log(datadrive.result);

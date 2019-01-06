@@ -1,0 +1,34 @@
+describe("SupercalculatorTest", function() {
+
+	var calculate = require("./3SuperCalculator_PageObject.js");
+	var data = require("./5Data.js");
+
+	beforeEach(function() {
+		calculate.launchCalculator();
+	})
+
+	
+	
+	it("TestCase01", function() {
+
+		calculate.firstInput.sendKeys("100");
+		calculate.secondInput.sendKeys("100");
+		calculate.goButton.click();
+		calculate.performAction(100, 200, "+");
+
+	})
+	
+/*	it("TestCase02_withDatafromDataclass", function() {
+
+		calculate.firstInput.sendKeys(data.datadrive.firstInput);
+		calculate.secondInput.sendKeys(data.datadrive.secondInput);
+		calculate.goButton.click();
+		calculate.performAction(data.datadrive.firstInput, data.datadrive.secondInput, "+");
+
+	})*/
+
+	afterEach(function() {
+		console.log("Testing is completed")		
+	})
+	
+})

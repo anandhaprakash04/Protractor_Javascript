@@ -1,0 +1,13 @@
+describe(
+		"Protractor Sync Non Angular",
+		function() {
+
+			it(
+					"TestCase01",
+					function() {
+								
+								
+						
+					});
+
+		});

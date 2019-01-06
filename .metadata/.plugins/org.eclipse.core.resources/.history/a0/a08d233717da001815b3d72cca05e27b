@@ -1,0 +1,11 @@
+exports.config = {
+			seleniumAddress: 'http://localhost:4444/wd/hub',
+			specs: ['Practice12_Protractor_iFrames.js'],
+			capabilities: {
+				  'browserName': 'chrome'
+				},
+			jasmineNodeOpts: {
+				    defaultTimeoutInterval: 30000
+				},
+
+		};	

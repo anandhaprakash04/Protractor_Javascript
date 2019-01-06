@@ -1,0 +1,27 @@
+
+dataSets: 
+Data1: 
+{
+	firstInput : "2",
+	secondInput : "5",
+	result: "7"
+},
+Data2: 
+{
+	firstInput : "2",
+	secondInput : "5",
+	result: "7"
+},
+Data3: 
+{
+	firstInput : "2",
+	secondInput : "5",
+	result: "7"
+},
+Data4: 
+{
+	firstInput : "2",
+	secondInput : "5",
+	result: "7"
+};
+

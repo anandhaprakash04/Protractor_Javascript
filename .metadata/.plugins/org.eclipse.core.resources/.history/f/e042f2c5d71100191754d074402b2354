@@ -1,0 +1,52 @@
+describe("SupercalculatorTest", function() {
+
+	var calculate = require("./3SuperCalculator_PageObject.js");
+	var data = require("./5Data.js");
+	var dataset =require("./6MultiDataSet.js"); 
+
+	beforeEach(function() {
+		calculate.launchCalculator();
+	})
+
+	
+	
+	it("TestCase01", function() {
+
+		calculate.firstInput.sendKeys("100");
+		calculate.secondInput.sendKeys("100");
+		calculate.goButton.click();
+		calculate.performAction(100, 200, "+");
+		calculate.getnValidateResult("300");
+
+	})
+	
+	it("TestCase02_withDatafromDataclass", function() {
+
+		calculate.firstInput.sendKeys(data.datadrive.firstInput);
+		calculate.secondInput.sendKeys(data.datadrive.secondInput);
+		calculate.goButton.click();
+		calculate.performAction(data.datadrive.firstInput, data.datadrive.secondInput, "+");
+		calculate.getnValidateResult(data.datadrive.result); 
+		
+	})
+	
+//	https://www.npmjs.com/package/jasmine-data-provider <-- Refer this for data provider
+	// First argument - Object of the data set class
+	// data - stores the actual data
+	// description - sub object name , for every iteration one data set is retrieved.
+	
+	using(dataset.dataSets,function(data, description){
+		
+		it("TestCase03_withMulitipleDataset", function() {
+
+			calculate.performAction(data.datadrive.firstInput, data.datadrive.secondInput, "+");
+			calculate.getnValidateResult(data.datadrive.result); 
+			
+		})
+	});
+
+	afterEach(function() {
+		console.log("Testing is completed")		
+	})
+	
+})

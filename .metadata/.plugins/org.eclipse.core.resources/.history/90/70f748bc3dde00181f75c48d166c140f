@@ -1,0 +1,14 @@
+{
+	"name": "Protractor3_Framework_JSObjects_11-01-2018",
+	
+	"dependencies": {
+		"protractor": "5.4.1"
+	},
+	
+	"scripts": {
+		"webdriver-start": "./node_modules/.bin/webdriver-manager update",
+				"we": "./node_modules/.bin/webdriver-manager start",
+				"protractor": "./node_modules/.bin/protractor conf.js",
+				"start": "npm run webdriver-start && npm run we && npm run protractor"
+	}
+}
