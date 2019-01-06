@@ -26,12 +26,12 @@ module.exports =
 				firstInput : "12",
 				secondInput : "10",
 				result: "2"
-			},
-			Data5: 
+			}
+			Data4: 
 			{
-				firstInput : "1200",
-				secondInput : "10000",
-				result: "12000"
+				firstInput : "12",
+				secondInput : "10",
+				result: "2"
 			}
 		}
 	}
